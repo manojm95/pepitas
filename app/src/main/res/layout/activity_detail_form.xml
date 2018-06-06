@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apptrovertscube.manojprabahar.myapplication.AddressForm">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbaraddress"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#00000000"
+        android:layout_gravity="top" >
+
+        <TextView
+            android:text="Add/Modify Address"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:textColor="#616A6B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_below="@id/toolbaraddress"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:text="Name"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#616A6B"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/nameedit"
+            android:maxLength="30"
+            android:fontFamily="sans-serif-thin"
+            android:background="@drawable/grayeditbox"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:textColorHint="#707B7C"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:text="Address"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#616A6B"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/Street1edit"
+            android:maxLength="40"
+            android:background="@drawable/grayeditbox"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="sans-serif-thin"
+
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/street1_hint"
+
+            android:textColorHint="#A6ACAF"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/Street2edit"
+            android:fontFamily="sans-serif-thin"
+
+            android:padding="5dp"
+            android:maxLength="40"
+            android:background="@drawable/grayeditbox"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/street2_hint"
+
+            android:textColorHint="#A6ACAF"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-thin"
+
+            android:background="@drawable/grayeditbox"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:padding="5dp"
+            android:id="@+id/landmarkedit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/landmark_hint"
+
+            android:textColorHint="#A6ACAF"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/cityet"
+                android:padding="5dp"
+                android:fontFamily="sans-serif-thin"
+
+                android:background="@drawable/grayeditbox"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:text="Chennai"
+                android:hint="@string/city_hint"
+
+                android:textColorHint="#A6ACAF"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/stateet"
+                android:padding="5dp"
+                android:text="Tamil Nadu"
+                android:fontFamily="sans-serif-thin"
+
+                android:background="@drawable/grayeditbox"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/state_hint"
+
+                android:textColorHint="#A6ACAF"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:id="@+id/phoneet"
+                android:padding="5dp"
+                android:fontFamily="sans-serif-thin"
+
+                android:background="@drawable/grayeditbox"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:hint="@string/phone_hint"
+
+                android:textColorHint="#A6ACAF"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/zipet"
+                android:padding="5dp"
+                android:fontFamily="sans-serif-thin"
+
+                android:background="@drawable/grayeditbox"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/zip_hint"
+
+                android:textColorHint="#A6ACAF"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/saveaddress"
+            android:text="SAVE"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

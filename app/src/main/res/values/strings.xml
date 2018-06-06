@@ -1,0 +1,275 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_b">ActivityB</string>
+    <string name="edittext_hint"><font size="14">Name*</font></string>
+    <string name="street1_hint"><font size="14">Street Address1*</font></string>
+    <string name="street2_hint"><font size="14">Street Address2</font></string>
+    <string name="landmark_hint"><font size="14">Landmark*</font></string>
+    <string name="city_hint"><font size="14">City*</font></string>
+    <string name="state_hint"><font size="14">State*</font></string>
+    <string name="phone_hint"><font size="14">9999999999</font></string>
+    <string name="zip_hint"><font size="14">Zip*</font></string>
+
+    <string name="Rs">\u20B9</string>
+    <string name="app_name">Month Calendar Widget</string>
+    <string name="parseapp">7JHRlf0D2RLwIoIIMsVe2XnXgxY6N6huBLWllPKl</string>
+    <string name="parseserver">https://parseapi.back4app.com/</string>
+    <string name="facebook_app_id">459685021065977</string>
+    <plurals name="you_selected_x_songs">
+        <item quantity="one">You selected %d song. Good taste!</item>
+        <item quantity="other">You selected %d songs. Good taste!</item>
+    </plurals>
+
+    <array name="imagesforlist">
+        <item>amul_cheese</item>
+        <item>badam</item>
+        <item>coconut</item>
+        <item>dahi</item>
+        <item>dosa_batter</item>
+        <item>id_batter</item>
+        <item>knorr_pasta</item>
+        <item>maggi</item>
+        <item>paneer_half</item>
+        <item>paneer</item>
+        <item>pasta</item>
+        <item>pista</item>
+    </array>
+
+    <array name="namesforlist">
+        <item>Amul Cheese</item>
+        <item>Badam</item>
+        <item>Coconut</item>
+        <item>Dahi</item>
+        <item>Dosa Batter</item>
+        <item>ID Batter</item>
+        <item>Knorr Pasta</item>
+        <item>Maggi</item>
+        <item>Paneer Half KG</item>
+        <item>Paneer</item>
+        <item>Pasta</item>
+        <item>Pista</item>
+    </array>
+
+    <array name="dairy">
+        <item>milk</item>
+        <item>coconut</item>
+        <item>tendercoconut</item>
+        <item>chilli</item>
+        <item>carrot</item>
+    </array>
+
+    <array name="grocs">
+        <item>beans</item>
+        <item>beet</item>
+        <item>tomato</item>
+        <item>onion</item>
+        <item>curryleaves</item>
+    </array>
+
+    <array name="priceforlist">
+        <item>15.23</item>
+        <item>11</item>
+        <item>20</item>
+        <item>24.50</item>
+        <item>04</item>
+        <item>18</item>
+        <item>12</item>
+        <item>22</item>
+        <item>14</item>
+        <item>11.25</item>
+    </array>
+    <array name="priceforDairylist">
+        <item>15.23</item>
+        <item>11</item>
+        <item>20</item>
+        <item>24.50</item>
+        <item>04</item>
+    </array>
+    <array name="priceforGrocslist">
+        <item>18</item>
+        <item>12</item>
+        <item>22</item>
+        <item>14</item>
+        <item>11.25</item>
+    </array>
+    <array name="categories">
+        <item>Dairy</item>
+        <item>Groceries</item>
+    </array>
+    <array name="categories_images">
+        <item>ic_dairy</item>
+        <item>ic_groceries</item>
+    </array>
+    <string name="title_activity_payment">payment</string>
+
+    <string-array name="questions">
+        <item>"1. Why Login is needed?"</item>
+        <item>"1. What is CloudSane?"</item>
+        <item>"2. Do we store your passwords?"</item>
+        <item>"3. What are the available cloud storages?"</item>
+        <item>"4. How to connect to Google Drive/DropBox/Box cloud storages?"</item>
+        <item>"5. How to change/set backend cloud storages for media upload?"</item>
+        <item>"1. Why Login is needed?"</item>
+        <item>"1. What is 'Image Quality' in Quality?"</item>
+        <item>"2. What is 'Image Pick Count' in Quality?"</item>
+        <item>"3. What is 'Video Quality' in Quality?"</item>
+        <item>"4. What is 'Shrink Video From Gallery' in Quality?"</item>
+        <item>"5. What is 'Video Size Limit Off' in Quality?"</item>
+        <item>"Why Login is needed?"</item>
+        <item>"1. Selected media items from gallery are not uploaded"</item>
+        <item>"2. How to fix broken link when trying to login to DROPBOX?"(Pro Version Only)</item>
+        <item>"3. How to handle issues that pops up while authenticating cloud storages?"</item>
+        <item>"4. Limitations and Constraints(Scroll up after click)"</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>"1. Why Login is needed?"</item>
+        <item>"Cloudsane is a sophisticated media sharing app with major cloud storages(Google Drive, Dropbox and Box), with rich features and awesome UI. You can share images and videos from gallery OR you can capture/record media, to directly store them into one of the cloud storages with one time configuration."</item>
+        <item>"CloudSane never stores your  password. This app has no backend server or database or local storage  to store credentials. CloudSane acts as a bridge between your phone and cloud storages through powerful APIs and authentication is performed outside the scope of CloudSane."</item>
+        <item>"Google Drive DropBox and Box"</item>
+        <item>"Tap 'Options' and tap on 'Cloud'. It will take you to the Cloud storages settings page. In this page you can swipe on each cloud storage to Login and 'Select' the Folder to store media. You can get to know the currently selected cloud storage with a 'checked' icon on top of the cloud (Google Drive/DropBox/Box) icon"</item>
+        <item>"Tap 'Options' and tap on 'Cloud'. It will take you to the Cloud storages settings page. In this page you can swipe on each cloud storage and click on the Cloud Provider name(i.e Google Drive DropBox etc). If already authenticated, the tapped cloud would be selected and you will get a tick icon on top of selected cloud logo. If not authenticated, please see the above question #4 for Login and Folder Selection help."</item>
+        <item>"1. Why Login is needed?"</item>
+        <item>"It gives you a option to select the quality of images(uploaded to cloud). If set to 'High' the quality of images would be with high resolution. Based on your network speed you can choose to stay with Normal quality(not poor resolution)."</item>
+        <item>"You can set the number of images you can pick from gallery for upload. Please consider uploading maximum of five images aat a time to help overall performance.</item>
+        <item>"This gives you option to set the quality of video to Normal or High. You can choose Normal if network speed is not high."</item>
+        <item>"This lets you go for compression option for videos chosen from gallery, for upload. If this is set to 'YES' then you can upload only one video at a time."</item>
+        <item>"With this option you can set a limit to the size of video file, for upload. The default is set to 20mb. If this is turned off then the 20mb limit is not considered while picking videos from gallery."</item>
+        <item>"Why Login is needed?"</item>
+        <item>"Please don't forget to click on 'DONE' after you select the images or videos from Gallery on each page. The 'DONE' is available on top right of every page."</item>
+        <item>"The default browser that comes with certain manufacturer device doesn’t parse the DROPBOX web link well and might crash when trying to authenticate. You can try different third party browsers like chrome by setting them as your default browser in your mobile device."</item>
+        <item>"Restart the app by closing (even from background) and open it from app selection screen. Then go to 'Cloud' option in Menu and try authentication/folder selection again. We would receive a crash report if in case of any failure and we would start to investigate immediately. You can also send email  to contact@apptrovertscube.com to escalate issues."</item>
+        <item>"a. If 'Compression' option is turned on you can upload only one video at a time. Upload can be triggered by clicking 'Done' at the top right of image selection page. There is no limit for images though.
+b. Viewing the media in the cloud storage feature is not available at this time. This will be added in future releases."</item>
+    </string-array>
+
+    <string name="legal">
+"Icons made by MadeByOliver from www.flaticon.com
+Icons made by Prosymbols from www.flaticon.com
+Icons made by Freepik from www.flaticon.com
+Icons made by Gregor Cresnar from www.flaticon.com
+Icons made by Icon Works from www.flaticon.com
+Icons made by Alfredo Hernandez from www.flaticon.com
+Icons made by Google from www.flaticon.com
+Icons made by Robin Kylander from www.flaticon.com
+Icons made by Maxim Basinski Kylander from www.flaticon.com
+Icons made by Retinaicons from www.flaticon.com
+Icons made by Vectors Market from www.flaticon.com
+Icons made by Pixel Budha from www.flaticon.com
+Icons made by Roundicons from www.flaticon.com
+Icons made by Iconnice from www.flaticon.com
+Icons made by Google from www.flaticon.com
+Icons made by Robin Kylander from www.flaticon.com
+Icons made by Maxim Basinski Kylander from www.flaticon.com
+The MIT License (MIT)
+
+Copyright (c) 2013 SpecialCyCi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+FMPEG4:
+
+This project is a bundle of various other projects and a few patches.
+
+Each project has is own license, and any patches to them are under the original
+license.
+
+Any source code not covered by a project license is GPLv3.
+
+FFMPEG:
+    ffmpeg/COPYING.LGPLv2.1
+    ffmpeg/COPYING.LGPLv3
+    ffmpeg/COPYING.GPLv2
+    ffmpeg/COPYING.GPLv3
+
+freetype2:
+    freetype2/docs/GPLv2.TXT
+    freetype2/docs/FTL.TXT
+
+x264:
+    x264/COPYING
+
+expat:
+    expat/COPYING
+
+fontconfig:
+    fontconfig/COPYING
+
+fribidi:
+    fribidi/COPYING
+
+libass:
+    libass/COPYING
+
+libpng:r
+    libpng/LICENSE
+
+Copyright 2017, Yalantis
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Copyright 2015 learnNcode (learnncode@gmail.com)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Copyright 2015, KyoSherlock
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Copyright 2016 Aidan Follestad
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+    </string>
+
+</resources>

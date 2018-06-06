@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/sigupparent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/signupprogressbar"
+        />
+
+    <LinearLayout
+        android:id="@+id/email_signup_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+
+        <AutoCompleteTextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="user@gmail.com"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="15sp"
+            android:textColorHint="#4DFFFFFF"
+            android:textColor="#FFFFFF"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/whitetransperantbox"
+            android:maxLines="1" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="15sp"
+            android:textColorHint="#4DFFFFFF"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:layout_marginBottom="15dp"
+            android:hint="passWord"
+            android:textColor="#FFFFFF"
+            android:imeActionId="@+id/signup"
+            android:imeActionLabel="Sign In"
+            android:imeOptions="actionUnspecified"
+            android:background="@drawable/whitetransperantbox"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+
+        <Button
+            android:id="@+id/email_signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:background="@drawable/blueloginbox"
+            android:text="Continue"
+            android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:id="@+id/forgotpwdsignup"
+                android:visibility="visible"
+                android:text="Forgot PassWord"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="9"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

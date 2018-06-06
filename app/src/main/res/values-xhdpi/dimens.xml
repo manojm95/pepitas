@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <integer name="max_width_short_month_label_dp">240</integer>
+    <integer name="max_height_mini_view_dp">180</integer>
+    <integer name="max_height_mini_view_1_row_dp">120</integer>
+    <dimen name="decoration_size">0dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="mainbuttonheight">34dp</dimen>
+    <dimen name="maintextheight">13sp</dimen>
+    <dimen name="mainbottommarginheight">0dp</dimen>
+</resources>

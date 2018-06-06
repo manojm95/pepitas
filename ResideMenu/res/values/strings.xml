@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ResideMenu</string>
+
+    <array name="imagesforlistfinal">
+        <item>amla_f</item>
+        <item>apple_f</item>
+        <item>avacado_f</item>
+        <item>banana_f</item>
+        <item>banana_stem_v</item>
+        <item>beans_v</item>
+        <item>beetroot_v</item>
+        <item>bitter_gourd_v</item>
+        <item>black_grapes_f</item>
+        <item>brocolli_v</item>
+        <item>cabbage_v</item>
+        <item>carrot_v</item>
+        <item>cataloupe_f</item>
+        <item>cauliflower_v</item>
+        <item>coconut_v</item>
+        <item>cucumber_v</item>
+        <item>cucumber_wide_v</item>
+        <item>custard_f</item>
+        <item>eggplant_v</item>
+        <item>figs_f</item>
+        <item>green_banana_f</item>
+        <item>green_bell_pepper_v</item>
+        <item>green_grapes_f</item>
+        <item>guava_f</item>
+        <item>image_v</item>
+        <item>kiwi_f</item>
+        <item>kovakkai_v</item>
+        <item>mushroom_v</item>
+        <item>onion_v</item>
+        <item>orange_f</item>
+        <item>papaya_f</item>
+        <item>pineapple_f</item>
+        <item>plantain_v</item>
+        <item>pomo_f</item>
+        <item>potato_v</item>
+        <item>pumpkin_v</item>
+        <item>shallots_v</item>
+        <item>sorakka_v</item>
+        <item>squash_v</item>
+        <item>tomato_v</item>
+        <item>water_melon_f</item>
+    </array>
+
+    <array name="namesforlistfinal">
+        <item>Amla</item>
+        <item>Apple</item>
+        <item>Avacado</item>
+        <item>Banana</item>
+        <item>Banana Stem</item>
+        <item>Beans</item>
+        <item>Beetroot</item>
+        <item>Bitter Gourd</item>
+        <item>Black Grapes</item>
+        <item>Brocolli</item>
+        <item>Cabbage</item>
+        <item>Carrot</item>
+        <item>Cataloupe</item>
+        <item>Cauliflower</item>
+        <item>Coconut</item>
+        <item>Cucumber</item>
+        <item>Cucumber Wide</item>
+        <item>Custard</item>
+        <item>Eggplant</item>
+        <item>Figs</item>
+        <item>Green Banana</item>
+        <item>Green Bell Pepper</item>
+        <item>Green Grapes</item>
+        <item>Guava</item>
+        <item>Image</item>
+        <item>Kiwi</item>
+        <item>Kovakkai</item>
+        <item>Mushroom</item>
+        <item>Onion</item>
+        <item>Orange</item>
+        <item>Papaya</item>
+        <item>Pineapple</item>
+        <item>Plantain</item>
+        <item>Pomo</item>
+        <item>Potato</item>
+        <item>Pumpkin</item>
+        <item>Shallots</item>
+        <item>Sorakka</item>
+        <item>Squash</item>
+        <item>Tomato</item>
+        <item>Water Melon</item>
+    </array>
+
+</resources>
+
+

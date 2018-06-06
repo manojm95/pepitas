@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#F2F3F4"
+    android:layout_margin="30dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#000000"
+        android:text="Please select a payment option"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-thin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:stateListAnimator="@null"
+        android:id="@+id/wallet"
+        android:elevation="0dp"
+        android:text="Pay With Wallet Money"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="13sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:stateListAnimator="@null"
+        android:id="@+id/paynow"
+        android:background="@color/white"
+        android:elevation="0dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Other Payment Options"
+        android:textSize="13sp"
+        />
+</LinearLayout>

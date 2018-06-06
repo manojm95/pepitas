@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/shopbag"
+    android:layout_marginTop="-1dp"
+    android:weightSum="100"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:fillViewport="false"
+        app:tabIndicatorColor="#ffffff"
+        app:tabMaxWidth="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        app:tabTextColor="#B2BABB"
+        app:tabSelectedTextColor="#FFFFFF"
+        android:background="@android:color/transparent"
+        android:theme="@style/Tablayout"/>
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_weight="45"
+        android:layout_height="0dp" />
+
+</LinearLayout>

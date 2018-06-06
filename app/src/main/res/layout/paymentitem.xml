@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardpaymentitem"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="6dp"
+    app:cardElevation="0dp">
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/llpaymentlineitem"
+        android:orientation="vertical"
+        android:gravity="left"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/paymentitemfirstletter"
+        android:gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#000000"
+        android:text="A"
+        android:textSize="25sp"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="56dp"
+        android:background="#B2BABB"
+        android:foregroundGravity="center"
+        android:layout_marginTop="7dp"
+        android:id="@+id/dividerpayment"
+        android:layout_toRightOf="@id/paymentitemfirstletter"
+        />
+
+    <TextView
+        android:id="@+id/paymentitemdesc"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@+id/paymentitemfirstletter"
+        android:layout_toRightOf="@id/dividerpayment"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        android:text="Milk"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/paymentitemqty"
+        android:layout_width="wrap_content"
+        android:layout_alignStart="@id/paymentitemdesc"
+        android:layout_below="@id/paymentitemdesc"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="left"
+        android:text="Price 14 INR  Qty: 1"
+        android:textColor="#484848"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/paymentitemtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:padding="5dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="Total"
+        android:textColor="#212F3C"
+        android:textSize="14sp"
+        android:layout_above="@+id/paymentitemqty"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+    
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>

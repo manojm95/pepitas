@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cartcardroot"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="6dp"
+    app:cardElevation="0dp">
+
+  <RelativeLayout
+      android:id="@+id/llpaymentlineitem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="left"
+      android:paddingBottom="20dp"
+      android:paddingTop="10dp"
+      android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/cartdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        android:text="Milk"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cartqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/cartdesc"
+        android:layout_below="@id/cartdesc"
+        android:paddingTop="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="left"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp"
+        android:text="Price 14 INR"
+        android:textColor="#484848"
+        android:textSize="14sp" />
+
+    <com.michaelmuenzer.android.scrollablennumberpicker.ScrollableNumberPicker
+        android:id="@+id/cart_no_picker"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cartqty"
+        android:layout_toRightOf="@id/cartqty"
+        android:background="@drawable/ic_number_picker"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        app:snp_buttonIconLeft="@drawable/minusicon"
+        app:snp_buttonIconRight="@drawable/plusroundicon"
+        app:snp_maxValue="9"
+        app:snp_minValue="0"
+        app:snp_updateInterval="10"
+        app:snp_value="1"
+        app:snp_valueMarginEnd="8dp"
+        app:snp_valueMarginStart="8dp" />
+
+    <TextView
+        android:id="@+id/cartitemTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/paymentitemqty"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Total"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+
+  </RelativeLayout>
+</android.support.v7.widget.CardView>

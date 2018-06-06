@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res"/><source path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/build/generated/res/rs/release"/><source path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/build/generated/res/resValues/release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/src/release/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res"><file name="shadow" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-hdpi/shadow.png" qualifiers="hdpi-v4" type="drawable"/><file name="residemenu_custom" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/layout/residemenu_custom.xml" qualifiers="" type="layout"/><file name="residemenu_custom_left_scrollview" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/layout/residemenu_custom_left_scrollview.xml" qualifiers="" type="layout"/><file name="residemenu_custom_right_scrollview" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/layout/residemenu_custom_right_scrollview.xml" qualifiers="" type="layout"/><file name="residemenu_item" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/layout/residemenu_item.xml" qualifiers="" type="layout"/><file path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/values/strings.xml" qualifiers=""><array name="namesforlistfinal">
+        <item>Amla</item>
+        <item>Apple</item>
+        <item>Avacado</item>
+        <item>Banana</item>
+        <item>Banana Stem</item>
+        <item>Beans</item>
+        <item>Beetroot</item>
+        <item>Bitter Gourd</item>
+        <item>Black Grapes</item>
+        <item>Brocolli</item>
+        <item>Cabbage</item>
+        <item>Carrot</item>
+        <item>Cataloupe</item>
+        <item>Cauliflower</item>
+        <item>Coconut</item>
+        <item>Cucumber</item>
+        <item>Cucumber Wide</item>
+        <item>Custard</item>
+        <item>Eggplant</item>
+        <item>Figs</item>
+        <item>Green Banana</item>
+        <item>Green Bell Pepper</item>
+        <item>Green Grapes</item>
+        <item>Guava</item>
+        <item>Image</item>
+        <item>Kiwi</item>
+        <item>Kovakkai</item>
+        <item>Mushroom</item>
+        <item>Onion</item>
+        <item>Orange</item>
+        <item>Papaya</item>
+        <item>Pineapple</item>
+        <item>Plantain</item>
+        <item>Pomo</item>
+        <item>Potato</item>
+        <item>Pumpkin</item>
+        <item>Shallots</item>
+        <item>Sorakka</item>
+        <item>Squash</item>
+        <item>Tomato</item>
+        <item>Water Melon</item>
+    </array><string name="app_name">ResideMenu</string><array name="imagesforlistfinal">
+        <item>amla_f</item>
+        <item>apple_f</item>
+        <item>avacado_f</item>
+        <item>banana_f</item>
+        <item>banana_stem_v</item>
+        <item>beans_v</item>
+        <item>beetroot_v</item>
+        <item>bitter_gourd_v</item>
+        <item>black_grapes_f</item>
+        <item>brocolli_v</item>
+        <item>cabbage_v</item>
+        <item>carrot_v</item>
+        <item>cataloupe_f</item>
+        <item>cauliflower_v</item>
+        <item>coconut_v</item>
+        <item>cucumber_v</item>
+        <item>cucumber_wide_v</item>
+        <item>custard_f</item>
+        <item>eggplant_v</item>
+        <item>figs_f</item>
+        <item>green_banana_f</item>
+        <item>green_bell_pepper_v</item>
+        <item>green_grapes_f</item>
+        <item>guava_f</item>
+        <item>image_v</item>
+        <item>kiwi_f</item>
+        <item>kovakkai_v</item>
+        <item>mushroom_v</item>
+        <item>onion_v</item>
+        <item>orange_f</item>
+        <item>papaya_f</item>
+        <item>pineapple_f</item>
+        <item>plantain_v</item>
+        <item>pomo_f</item>
+        <item>potato_v</item>
+        <item>pumpkin_v</item>
+        <item>shallots_v</item>
+        <item>sorakka_v</item>
+        <item>squash_v</item>
+        <item>tomato_v</item>
+        <item>water_melon_f</item>
+    </array></file><file name="cataloupe_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/cataloupe_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="sorakka_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/sorakka_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="water_melon_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/water_melon_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="bitter_gourd_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/bitter_gourd_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="coconut_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/coconut_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="beetroot_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/beetroot_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="cucumber_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/cucumber_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="potato_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/potato_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="orange_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/orange_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="pomo_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/pomo_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="black_grapes_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/black_grapes_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="banana_stem_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/banana_stem_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shallots_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/shallots_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="papaya_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/papaya_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="amla_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/amla_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="brocolli_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/brocolli_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="cauliflower_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/cauliflower_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="cabbage_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/cabbage_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="figs_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/figs_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="kiwi_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/kiwi_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="avacado_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/avacado_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="squash_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/squash_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="banana_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/banana_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="green_bell_pepper_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/green_bell_pepper_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="guava_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/guava_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="green_banana_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/green_banana_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="beans_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/beans_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="custard_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/custard_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="apple_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/apple_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="pumpkin_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/pumpkin_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="mushroom_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/mushroom_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="plantain_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/plantain_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="eggplant_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/eggplant_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="onion_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/onion_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="tomato_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/tomato_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="cucumber_wide_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/cucumber_wide_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="carrot_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/carrot_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="pineapple_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/pineapple_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="green_grapes_f" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/green_grapes_f.png" qualifiers="xhdpi-v4" type="drawable"/><file name="image_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/image_v.png" qualifiers="xhdpi-v4" type="drawable"/><file name="kovakkai_v" path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/res/drawable-xhdpi/kovakkai_v.png" qualifiers="xhdpi-v4" type="drawable"/></source><source path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/build/generated/res/rs/release"/><source path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/build/generated/res/resValues/release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="/Users/mna/AndroidStudioProjects/MyApplication/ResideMenu/src/release/res"/></dataSet><mergedItems/></merger>

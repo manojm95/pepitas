@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#F2F3F4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.apptrovertscube.manojprabahar.myapplication.Payment">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#000000"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+
+            <TextView
+                android:text="AVAILABLE CREDIT"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:id="@+id/paymentactivityamount"
+        android:textSize="70sp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="999.99"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:text="Buy Credit"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:id="@+id/paymentactivitypaynow"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/blacktransperantbox"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:text="Go Back"
+        android:textSize="18sp"
+        android:id="@+id/paymentactivitygoback"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-thin"
+        />
+
+</LinearLayout>
