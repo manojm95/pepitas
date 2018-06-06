@@ -42,9 +42,7 @@ public class MyApplication extends Application {
 
 
         // Add your initialization code here
-
-        Log.d("Credentials--->",Credentials.id +"  "+Credentials.pwd);
-
+        
         Parse.initialize(new Parse.Configuration.Builder(this)
                 .applicationId(Credentials.id)
                 .clientKey(Credentials.pwd)
